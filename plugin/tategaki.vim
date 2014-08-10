@@ -8,6 +8,11 @@ if  exists('g:loaded_tategaki')
 endif
 let g:loaded_tategaki = 1
 
+if exists('g:okyo_path')
+  finish
+endif
+let g:okyo_path = expand('~/.vim/bundle/tategaki/autoload/okyo/hannyasingyo.txt')
+
 let s:save_cpo=&cpo
 set cpo&vim
 

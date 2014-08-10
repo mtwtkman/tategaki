@@ -63,7 +63,7 @@ function! tategaki#translate(src_file)
 endfunction
 
 function! tategaki#hannyasingyo()
-  call tategaki#translate(expand('~/.vim/bundle/tategaki/autoload/okyo/hannyasingyo.txt'))
+  call tategaki#translate(g:okyo_path)
 endfunction
 
 
