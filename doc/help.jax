@@ -1,0 +1,71 @@
+*tategaki.jax*                        横書きの文章を縦書きにします。
+
+
+Version: 0.1
+Author: boku (https://github.com/mtwtkman)
+License: WTFPL
+
+
+=============================================================================
+
+目次                                  *tategaki-contents*
+
+
+概要                                  |tategaki-introduction|
+インターフェース                      |tategaki-interface|
+  コマンド                            |tategaki-commands|
+  関数                                |tategaki-functions|
+更新履歴                              |tategaki-changelog|
+
+
+=============================================================================
+
+概要                                  *tategaki-introduction*
+
+
+*tategaki.vim*は、横書きの文章を縦書き形式で表示します。
+(日本語の短い文章に限る…)
+
+最新版:
+https://github.com/mtwtkman/vim/tategaki
+
+
+=============================================================================
+
+インターフェース                      *tategaki-interface*
+
+
+-----------------------------------------------------------------------------
+
+コマンド                              *tategaki-commands*
+
+
+:Tategaki {filename}                  *:Tategaki*
+                                      {filename}の内容を縦書きに変換します。
+
+:Hnannyasingyo                        *:Hannyasingyo*
+                                      般若心経を表示します。
+                                      平常心を失った時にご活用ください。
+
+
+-----------------------------------------------------------------------------
+
+関数                                  *tategaki-functions*
+
+
+tategaki#translate({filename})        *tategaki#taranslate()*
+                                      |:Tategaki|の関数版です。
+
+tategaki#hannyasingyo()                       *tategaki#hannyasingyo()*
+                                      |:Hannyasingyo|の関数版です。
+
+
+=============================================================================
+
+更新履歴                              *tategaki-changelog*
+
+See git-log.
+
+=============================================================================
+
+vim:tw=78:fo=tcq2mM:ts=8:ft=help:norl
