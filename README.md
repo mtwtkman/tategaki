@@ -1,3 +1,6 @@
+#tategaki.vim
+![img](http://mtwtkman.com/static/g/nDk6c4Jnjz8I/image.gif)
+
 #使い方
 
 `:Tategaki {filename}`で横書きのファイルを縦書き形式に変換します。

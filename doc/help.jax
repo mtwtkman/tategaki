@@ -1,4 +1,4 @@
-*tategaki.jax*                        横書きの文章を縦書きにします。
+*tategaki.jax*
 
 
 Version: 0.1
@@ -44,7 +44,7 @@ https://github.com/mtwtkman/vim/tategaki
 :Tategaki {filename}                  *:Tategaki*
                                       {filename}の内容を縦書きに変換します。
 
-:Hannyasingyo                        *:Hannyasingyo*
+:Hannyasingyo                         *:Hannyasingyo*
                                       般若心経を表示します。
                                       平常心を失った時にご活用ください。
 
@@ -57,7 +57,7 @@ https://github.com/mtwtkman/vim/tategaki
 tategaki#translate({filename})        *tategaki#taranslate()*
                                       |:Tategaki|の関数版です。
 
-tategaki#hannyasingyo()                       *tategaki#hannyasingyo()*
+tategaki#hannyasingyo()               *tategaki#hannyasingyo()*
                                       |:Hannyasingyo|の関数版です。
 
 
